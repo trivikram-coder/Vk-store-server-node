@@ -3,6 +3,8 @@ const express=require("express")
 const app=express()
 const jwt=require("jsonwebtoken")
 const bcrypt=require("bcryptjs")
+const cors=require("cors")
+app.use(cors())
 app.use(express.json())
 app.post("/register",async(req,res)=>{
     try {
