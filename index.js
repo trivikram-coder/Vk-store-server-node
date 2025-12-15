@@ -16,6 +16,7 @@ app.use("/product",product)
 app.use("/admin",admin)
 dotenv.config()
 mongoose.connect(process.env.MONGODB_URL)
+console.log("kgkg5m")
 .then(()=>console.log("Connected Successfully"))
 .catch(error=>console.log(error.message))
 app.listen(3000,()=>{
