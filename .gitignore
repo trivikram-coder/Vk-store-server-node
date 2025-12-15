@@ -1,4 +1,2 @@
-.env          # Excludes .env file
-.env.*        # Excludes .env.local, .env.production, etc.
-.env-*        # Excludes .env-local, .env-production, etc.
-/node_modules # Excludes node_modules directory
+/node_modules
+.env
